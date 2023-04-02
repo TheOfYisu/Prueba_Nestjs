@@ -38,9 +38,9 @@ export class DriversEntity {
     city: string;
 
     @Column({
-        type:"varchar"    
+        type:"int"    
     })
-    zip_code: string;
+    zip: number;
 
     @Column({
         type:"int"    
@@ -50,6 +50,6 @@ export class DriversEntity {
     @Column({
         type:"boolean"    
     })
-    active: boolean;
+    active: number;
 
 }
